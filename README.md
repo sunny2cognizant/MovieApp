@@ -1,22 +1,25 @@
-Movie App
-Description
-The Movie App is a React-based web application that fetches movie details using an external API. The application provides users with an intuitive interface to browse movies, view detailed information, and interact with various features. State management across components is handled efficiently using React Context.
-Features
-• Browse Movies: Fetch and display a list of movies using an API.
-• Movie Details: View detailed information about a selected movie (e.g., title, description, release date, rating, etc.).
-• Responsive Design: Optimized for desktop and mobile devices.
-• Global State Management: React Context is used for state handling across components.
-• Dynamic UI: React-based UI components ensure a smooth and interactive user experience.
-Tech Stack
-• Frontend: React (JSX, CSS, React Hooks)
-• State Management: React Context
-• API: Fetch movies from a third-party API (e.g., The Movie Database API)
-• Styling: CSS for responsive and clean design
-Installation
-1. Clone the repository:
-git clone https://github.com/your-username/movie-app.git
-cd movie-app
-
+# Movie App
+## Description  
+The **Movie App** is a React-based web application that fetches movie details using an external API. The app provides an intuitive interface to browse movies, view detailed information, and interact with its features. State management across components is handled efficiently using React Context.
+---
+## Features  
+- **Browse Movies**: Fetch and display a list of movies using an API.  
+- **Movie Details**: View detailed information about a selected movie (e.g., title, description, release date, rating, etc.).  
+- **Responsive Design**: Optimized for both desktop and mobile devices.  
+- **Global State Management**: React Context for managing the application state.  
+- **Dynamic UI**: React-based components provide a seamless and interactive user experience.  
+---
+## Tech Stack  
+- **Frontend**: React (JSX, CSS, React Hooks)  
+- **State Management**: React Context  
+- **API**: The Movie Database API (TMDb)  
+- **Styling**: CSS for a responsive and clean design  
+---
+## Installation  
+1. Clone the repository:  
+  ```bash
+  git clone https://github.com/your-username/movie-app.git
+  cd movie-app
 2. Install dependencies:
 npm install
 
