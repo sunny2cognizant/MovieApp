@@ -30,7 +30,7 @@ REACT_APP_API_KEY=YOUR_API_KEY
 
 4. Start the development server:
 npm start
-File Structure
+## File Structure
 src  
 │  
 ├── components/  
@@ -57,28 +57,28 @@ src
    └── index.css
    └── MovieCard.css
    └── Navbar.css
-Usage
+## Usage
 1. Open the app in your browser:
 The app will be available at http://localhost:3000/ once the development server is running.
 2. Browse Movies:
 View a list of popular or trending movies fetched from the API.
 3. View Movie Details:
 Click on a movie to view detailed information.
-React Context Overview
+## React Context Overview
 The application uses React Context to manage state globally across components:
 • MovieContext: Provides the current movie list and selected movie details to all components.
 • Actions Handled by Context:
 • Fetching movies from the API.
 • Storing selected movie details.
 • Managing loading and error states.
-API Integration
+## API Integration
 The app fetches data from an external movie API. Here is a sample API call:
 const fetchMovies = async () => {
  const response = await fetch(`https://api.themoviedb.org/3/movies/popular?api_key=${process.env.REACT_APP_API_KEY}`);
  const data = await response.json();
  return data.results;
 };
-Contributing
+## Contributing
 1. Fork the repository.
 2. Create a new branch:
 git checkout -b feature-name
@@ -90,8 +90,8 @@ git commit -m "Added a new feature"
 git push origin feature-name
 
 5. Submit a pull request.
-License
+## License
 This project is licensed under the MIT License.
-Acknowledgments
+## Acknowledgments
 • React Documentation
 • The Movie Database API
